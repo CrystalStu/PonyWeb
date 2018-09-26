@@ -71,7 +71,11 @@
     </div>
             <!-- ajax -->
     <div id="index">
-        <title>HTTP 404 PONY NOT FOUND</title>
+        <script>/* 标签title切换 */
+        document.addEventListener('visibilitychange', function() {if(document.visibilityState=='hidden'){normal_title=document.title;document.title='HTTP 404 PONY NOT FOUND';}else{document.title=normal_title;}});
+        </script>
+
+        <title>小马扬蹄·2018年10月1-2日上海世博源二区翼树空间</title>
 
         <!-- head -->
         <div class="mdui-row">
@@ -254,5 +258,68 @@
         </div>
     </div>
 </div>
+<!-- Map -->
+<div id="map" class="mdui-dialog">
+    <div class="mdui-dialog-content mdui-valign">
+        <div class="mdui-row">
+            <div class="mdui-col-md-12"><img class="mdui-img-fluid mdui-img-rounded" src="resources/photo/Map.png"></div>
+        </div>
+    </div>
+</div>
+<!-- 吉祥物介绍，因为文案不齐全，所以被砍 -->
+<!--
+<div class="mdui-dialog" id="1">
+    <div class="mdui-tab mdui-tab-centered" mdui-tab>
+        <a href="#tab1-1" class="mdui-ripple">简介</a>
+        <a href="#tab1-2" class="mdui-ripple">属性</a>
+        <a href="#tab1-3" class="mdui-ripple">技能</a>
+    </div>
+    <div id="tab1-1" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab1-2" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab1-3" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+
+</div>
+<div class="mdui-dialog" id="2">
+    <div class="mdui-tab mdui-tab-centered" mdui-tab>
+        <a href="#tab2-1" class="mdui-ripple">简介</a>
+        <a href="#tab2-2" class="mdui-ripple">属性</a>
+        <a href="#tab2-3" class="mdui-ripple">技能</a>
+    </div>
+    <div id="tab2-1" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab2-2" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab2-3" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+
+</div>
+<div class="mdui-dialog" id="3">
+    <div class="mdui-tab mdui-tab-centered" mdui-tab>
+        <a href="#tab3-1" class="mdui-ripple">简介</a>
+        <a href="#tab3-2" class="mdui-ripple">属性</a>
+        <a href="#tab3-3" class="mdui-ripple">技能</a>
+    </div>
+    <div id="tab3-1" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab3-2" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+    <div id="tab3-3" class="mdui-p-a-2">
+        <p>待完善</p>
+    </div>
+
+</div>
+-->
+
 </body>
 </html>
