@@ -129,14 +129,14 @@
     bottom: 0;
     height: 100%; }
 .main-section {
-    background-image: url("//ww2.sinaimg.cn/large/ed039e1fgy1fvgfol7qurj211y0han9x");
+    background-image: url("//github.com/CrystalStu/PonyWeb/raw/master/resources/photo/PnPThemeED2.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
 }
 
 .index-head-div {
-    background-image: url("//ww2.sinaimg.cn/large/ed039e1fgy1fvgfol7qurj211y0han9x");
+    background-image: url("//github.com/CrystalStu/PonyWeb/raw/master/resources/photo/PnPThemeED2.png");
     background-repeat: no-repeat;
     color: #fff;
     display: flex;
